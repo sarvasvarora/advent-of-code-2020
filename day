@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Creates a new directory with the day number mentioned
+# cd into the new directory
+# Creates the following files inside the new directory: 1.py 2.py problem.txt input.txt
+
+DAY="day$1"
+
+mkdir $DAY
+cd $DAY
+touch 1.py 2.py problem.txt input.txt
